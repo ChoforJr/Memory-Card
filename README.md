@@ -1,4 +1,4 @@
-# Memory-Card
+# Anime Memory-Card Game
 
 Memory Card Game made with ReactJs
-This Project will be made using characters from dragon ball as images
+This Project will be made using images of anime
