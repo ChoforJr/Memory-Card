@@ -24,7 +24,6 @@ function Card({ name, onClick }) {
     const fetchImage = async () => {
       try {
         const response = await fetch(
-          // `https://api.giphy.com/v1/gifs/translate?api_key=8NK4HJpb5hLPh6nzYOE4N7OPbBJ3tGOw&s=anime ${name}`,
           `https://api.giphy.com/v1/gifs/search?api_key=j65jY41AnFhYGHn8WkQwXIB1ExR0omSm&q=anime ${name}&limit=1`,
           { mode: "cors" }
         );

@@ -1,11 +1,10 @@
 export default function Description() {
   return (
-    <section>
+    <section className="description">
       <p>
-        Get points by clicking on an images or text, but don't click on any more
-        than once!
+        Get points by clicking on a Card, but don't click on it more than once!
       </p>
-      <p>Test your Memory Strength and your Anime knowledge</p>
+      <p>Test your Memory Strength and Your Anime knowledge</p>
     </section>
   );
 }

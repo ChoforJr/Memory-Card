@@ -14,6 +14,17 @@ function App() {
     setShuffledItems(shuffleArray(characterNames));
   }, []);
 
+  useEffect(() => {
+    if (bestScore === 18) {
+      setBestScore(0);
+      setCurentScore(0);
+      setClickedItems([]);
+      alert(
+        "Congratulations! You have reached the Maximum Points, you can now play again"
+      );
+    }
+  }, [bestScore]);
+
   const handleShuffleClick = () => {
     setShuffledItems(shuffleArray(characterNames));
   };
