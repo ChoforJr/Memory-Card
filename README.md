@@ -2,3 +2,5 @@
 
 Memory Card Game made with ReactJs
 This Project will be made using images of anime
+
+# Author : FORSAKANG CHOFOR JUNIOR
